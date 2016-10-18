@@ -1,6 +1,7 @@
 sudo: required
 dist: trusty
 
+language: java
 language: node_js
 node_js:
   - '4.5'
@@ -22,5 +23,6 @@ before_script:
 script:
   - npm run test-single-run
   - (npm start > /dev/null &)  && (npm run protractor)
+  - mvn test
 
      
