@@ -1,0 +1,65 @@
+[INFO  - 2016-10-12T04:21:29.773Z] GhostDriver - Main - running on port 19633
+[INFO  - 2016-10-12T04:21:30.546Z] Session [59c89bf0-9033-11e6-9e83-7f015d75e4a3] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-10-12T04:21:30.546Z] Session [59c89bf0-9033-11e6-9e83-7f015d75e4a3] - page.customHeaders:  - {}
+[INFO  - 2016-10-12T04:21:30.546Z] Session [59c89bf0-9033-11e6-9e83-7f015d75e4a3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-10-12T04:21:30.546Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 59c89bf0-9033-11e6-9e83-7f015d75e4a3
+[ERROR - 2016-10-12T04:21:30.953Z] Session [59c89bf0-9033-11e6-9e83-7f015d75e4a3] - page.onError - msg: ReferenceError: Can't find variable: module
+[ERROR - 2016-10-12T04:21:30.953Z] Session [59c89bf0-9033-11e6-9e83-7f015d75e4a3] - page.onError - stack:
+  (anonymous function) (http://localhost:53650/spec/controllers/%20AppControllerSpec.js:21)
+[INFO  - 2016-10-12T04:26:29.782Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-12T04:30:57.276Z] GhostDriver - Main - running on port 1418
+[INFO  - 2016-10-12T04:30:57.385Z] Session [aba58770-9034-11e6-b984-03c1751d9c46] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-10-12T04:30:57.385Z] Session [aba58770-9034-11e6-b984-03c1751d9c46] - page.customHeaders:  - {}
+[INFO  - 2016-10-12T04:30:57.386Z] Session [aba58770-9034-11e6-b984-03c1751d9c46] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-10-12T04:30:57.386Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: aba58770-9034-11e6-b984-03c1751d9c46
+[ERROR - 2016-10-12T04:30:57.693Z] Session [aba58770-9034-11e6-b984-03c1751d9c46] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2016-10-12T04:30:57.693Z] Session [aba58770-9034-11e6-b984-03c1751d9c46] - page.onError - stack:
+
+[INFO  - 2016-10-12T04:35:57.275Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-12T04:40:57.274Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-12T04:45:57.274Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-12T04:47:12.199Z] GhostDriver - Main - running on port 1954
+[INFO  - 2016-10-12T04:47:13.042Z] Session [f12ed1f0-9036-11e6-94c5-975e25eb1b9d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-10-12T04:47:13.042Z] Session [f12ed1f0-9036-11e6-94c5-975e25eb1b9d] - page.customHeaders:  - {}
+[INFO  - 2016-10-12T04:47:13.042Z] Session [f12ed1f0-9036-11e6-94c5-975e25eb1b9d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-10-12T04:47:13.042Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f12ed1f0-9036-11e6-94c5-975e25eb1b9d
+[ERROR - 2016-10-12T04:47:13.343Z] Session [f12ed1f0-9036-11e6-94c5-975e25eb1b9d] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2016-10-12T04:47:13.343Z] Session [f12ed1f0-9036-11e6-94c5-975e25eb1b9d] - page.onError - stack:
+
+[INFO  - 2016-10-12T04:52:12.198Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-12T04:57:12.197Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-12T05:02:12.197Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-12T05:07:12.197Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+37-11e6-ac4d-cb7ce451a710] - page.customHeaders:  - {}
+[INFO  - 2016-10-12T04:49:56.258Z] Session [527773e0-9037-11e6-ac4d-cb7ce451a710] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-10-12T04:49:56.258Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 527773e0-9037-11e6-ac4d-cb7ce451a710
+[ERROR - 2016-10-12T04:49:56.597Z] Session [527773e0-9037-11e6-ac4d-cb7ce451a710] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2016-10-12T04:49:56.597Z] Session [527773e0-9037-11e6-ac4d-cb7ce451a710] - page.onError - stack:
+
+[INFO  - 2016-10-12T04:54:55.580Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-12T04:59:55.580Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-12T05:04:55.584Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+e6-84f7-973630bf446e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-10-12T05:02:16.558Z] Session [0bb81d90-9039-11e6-84f7-973630bf446e] - page.customHeaders:  - {}
+[INFO  - 2016-10-12T05:02:16.558Z] Session [0bb81d90-9039-11e6-84f7-973630bf446e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-10-12T05:02:16.558Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0bb81d90-9039-11e6-84f7-973630bf446e
+[ERROR - 2016-10-12T05:02:16.847Z] Session [0bb81d90-9039-11e6-84f7-973630bf446e] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2016-10-12T05:02:16.847Z] Session [0bb81d90-9039-11e6-84f7-973630bf446e] - page.onError - stack:
+
+[INFO  - 2016-10-12T05:07:15.823Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-12T05:10:06.765Z] GhostDriver - Main - running on port 32680
+[INFO  - 2016-10-12T05:10:06.886Z] Session [240ec730-903a-11e6-8976-31399531dfda] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-10-12T05:10:06.886Z] Session [240ec730-903a-11e6-8976-31399531dfda] - page.customHeaders:  - {}
+[INFO  - 2016-10-12T05:10:06.886Z] Session [240ec730-903a-11e6-8976-31399531dfda] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-10-12T05:10:06.886Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 240ec730-903a-11e6-8976-31399531dfda
+[ERROR - 2016-10-12T05:10:07.160Z] Session [240ec730-903a-11e6-8976-31399531dfda] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2016-10-12T05:10:07.160Z] Session [240ec730-903a-11e6-8976-31399531dfda] - page.onError - stack:
+
+[INFO  - 2016-10-12T05:16:54.183Z] GhostDriver - Main - running on port 10287
+[INFO  - 2016-10-12T05:16:54.298Z] Session [16e4c360-903b-11e6-9fda-1d73387a5ab1] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2016-10-12T05:16:54.298Z] Session [16e4c360-903b-11e6-9fda-1d73387a5ab1] - page.customHeaders:  - {}
+[INFO  - 2016-10-12T05:16:54.298Z] Session [16e4c360-903b-11e6-9fda-1d73387a5ab1] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-10-12T05:16:54.298Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 16e4c360-903b-11e6-9fda-1d73387a5ab1
+[ERROR - 2016-10-12T05:16:54.613Z] Session [16e4c360-903b-11e6-9fda-1d73387a5ab1] - page.onError - msg: SyntaxError: Parse error
+[ERROR - 2016-10-12T05:16:54.614Z] Session [16e4c360-903b-11e6-9fda-1d73387a5ab1] - page.onError - stack:
+
