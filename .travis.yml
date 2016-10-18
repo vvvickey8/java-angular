@@ -19,6 +19,7 @@ before_script:
   - npm install protractor -g
   - npm install 
   - sleep 3
+  - gradle assemble
 
 script:
   - npm run test-single-run
