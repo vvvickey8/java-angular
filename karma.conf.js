@@ -47,7 +47,8 @@ module.exports = function(config) {
     preprocessors: {  
         './src/main/resources/static/js/controller.js': ['coverage']
     },
-     type: 'lcov',
+     coverageReporter: {  
+        type: 'lcov',
             dir: 'coverage',
             subdir: '.'
     },
