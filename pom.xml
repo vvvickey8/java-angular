@@ -221,34 +221,29 @@
 <plugin>
   <groupId>com.github.searls</groupId>
   <artifactId>jasmine-maven-plugin</artifactId>
-  <version>1.3.1.5</version>
+  <version>2.1</version>
   <executions>
     <execution>
       <goals>
         <goal>test</goal>
       </goals>
+      <configuration>
+        <phantomjs>
+          <version>2.1.1</version>
+        </phantomjs>
+        <preloadSources>
+          <source>src/main/webapp/jasmine/*.js</source>
+          <source>src/main/webapp/ext/build/*.js</source>
+        </preloadSources>
+        <specIncludes>
+          <include>src/main/webapp/spec/*.js</include>
+        </specIncludes>
+        <customRunnerTemplate>src/main/webapp/SpecRunner.html</customRunnerTemplate>
+        <haltOnFailure>true</haltOnFailure>
+      </configuration>
     </execution>
   </executions>
-  <configuration>
-    <skipJasmineTests>${js-tests.skip}</skipJasmineTests>
-    <webDriverClassName>org.openqa.selenium.phantomjs.PhantomJSDriver</webDriverClassName>
-    <webDriverCapabilities>
-      <capability>
-        <name>phantomjs.binary.path</name>
-        <value>${phantomjs.binary}</value>
-      </capability>
-    </webDriverCapabilities>
-    <jsSrcDir>${basedir}/src/main/resources/static/app</jsSrcDir>
-    <jsTestSrcDir>${basedir}/src/test/javascript</jsTestSrcDir>
-    <preloadSources>
-      <source>${bower-components}/angular/angular.js</source>
-      <source>${bower-components}/angular-resource/angular-resource.js</source>
-      <source>${bower-components}/angular-mocks/angular-mocks.js</source>
-      <source>${basedir}/src/main/resources/static/app/app.js</source>
-    </preloadSources>
-  </configuration>
 </plugin>
-			
 		</plugins>
 		<pluginManagement>
 			<plugins>
