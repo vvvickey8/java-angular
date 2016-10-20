@@ -1,5 +1,5 @@
-{
-  "name": "angular-seed",
+ {
+  "name": "employee",
   "private": true,
   "version": "0.0.0",
   "description": "A starter project for AngularJS",
@@ -9,24 +9,25 @@
     "bower": "^1.7.7",
     "http-server": "^0.9.0",
     "jasmine-core": "^2.4.1",
-    "jshint": "^2.9.3",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^0.2.3",
-    "karma-coverage": "^0.5.5",
     "karma-firefox-launcher": "^0.1.7",
-    "karma-html-detailed-reporter": "^1.1.8",
-    "karma-htmlfile-reporter": "^0.2.2",
     "karma-jasmine": "^0.3.8",
     "karma-junit-reporter": "^0.4.1",
-    "protractor": "^3.2.2",
+    "protractor": "^4.0.4",
     "protractor-html-screenshot-reporter": "0.0.21",
-    "protractor-screenshot-reporter": "0.0.5"
+    "protractor-screenshot-reporter": "0.0.5",
+    "karma-coverage": "^0.5.5",
+    "karma-html-detailed-reporter": "^1.1.8",
+    "karma-htmlfile-reporter": "^0.2.2",
+    "coveralls":"2.11.2"
+    
   },
   "scripts": {
     "postinstall": "bower install",
 
     "prestart": "npm install",
-    "start": "http-server -a localhost -p 8000 -c-1 ./src/main/resources/static/",
+    "start": "http-server -a localhost -p 8000 -c-1 ./src/main/resources/static",
 
     "pretest": "npm install",
     "test": "karma start karma.conf.js",
