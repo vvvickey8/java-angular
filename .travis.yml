@@ -18,11 +18,13 @@ before_script:
   - npm install protractor -g
   - npm install coveralls 
   - npm install 
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
   - sleep 3
 
 script:
   - npm run test-single-run
   - (npm start > /dev/null &)  && (npm run protractor)
+  -  mvn test
 
 after_script:  
 - cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js && rm -rf coverage
