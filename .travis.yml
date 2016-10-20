@@ -18,7 +18,7 @@ before_script:
   - npm install protractor -g
   - npm install coveralls 
   - npm install 
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - mvn install 
   - sleep 3
 
 script:
