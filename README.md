@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/vvvickey8/java-angular.svg?branch=master)](https://travis-ci.org/vvvickey8/java-angular)
+[![Build Status](https://travis-ci.org/vvvickey8/java-angular.svg?branch=master)](https://travis-ci.org/vvvickey8/java-angular)[![Coverage Status](https://coveralls.io/repos/github/vvvickey8/java-angular/badge.svg?branch=master)](https://coveralls.io/github/vvvickey8/java-angular?branch=master)
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.
