@@ -27,5 +27,13 @@ script:
   -  mvn test
  
 
-after_script:  
-- cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js && rm -rf coverage
+"after_script": [
+    "cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js && rm -rf coverage"
+  ],
+  "on": {
+    "repo": "vvvickey8/angulartest",
+    "branch": "master"
+  },
+  "group": "stable",
+  "os": "linux"
+}
